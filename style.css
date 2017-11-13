@@ -1,0 +1,149 @@
+.body {
+	background-color: #f7d9d4 !important; 
+}
+
+/*NAV BAR*/
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    /*color: red;*/
+    /*border-width: 0;
+    border-color: transparent;
+    min-height: 60px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;*/
+
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 1% 0;
+    border:0;
+    letter-spacing: 0.1em;
+}
+
+.navbar-inverse .navbar-header .navbar-brand {
+    color: #333;
+    float:left;
+	min-height: : 55px;
+	/*padding: 0 15px 5px;*/
+} 
+
+.navbar-inverse .navbar-header .navbar-brand:hover {
+	color: #eba093;
+}
+
+.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav .active a:focus, 
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #eba093;
+	background-color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #333;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	color: #eba093;
+}
+
+/*MAIN PAGE*/
+
+.myname {
+	font-family: 'Raleway-semibold';
+    font-size: 50pt;
+    color: #4d4d4d;
+}
+
+#profilepic {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	/*margin-top: 10px;*/
+}
+
+.namearea {
+	margin: 5%;
+}
+
+.mainpagecontainer {
+	background-color: #f7d9d4;
+	font-family: 'Courier new';
+	/*margin: 4% auto;*/
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/*ABOUT PAGE*/
+
+.aboutpagecontainer {
+	background-color: #ffdbb3;
+	font-family: 'Courier new';
+	/*margin: 4% auto;*/
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#icon {
+	max-width: 200px;
+	width: 80px;
+	height: 80px;
+	margin: 15% auto;
+}
+
+/*EXPERIENCE PAGE*/
+
+.experiencepagecontainer {
+	background-color: #dad6be;
+	font-family: 'Courier new';
+	/*margin: 4% auto;*/
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+
+
+
+
+/*MEDIA*/
+ 
+ @media (max-width: 600px) {
+ 	#icon {
+ 		max-width: 150px;
+ 	}
+
+ 	h2 {
+ 		font-size: 1.7em;
+ 	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
