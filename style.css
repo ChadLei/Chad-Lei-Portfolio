@@ -113,6 +113,25 @@
     padding-bottom: 120px;
 }
 
+/*CONTACT PAGE*/
+
+.contactpagecontainer {
+    background-color: #eee;
+    font-family: 'Courier new';
+    /*margin: 4% auto;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#contactlink {
+    font-size: 20px;
+    text-decoration: none
+}
+
 
 
 
