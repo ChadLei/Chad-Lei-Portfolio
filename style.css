@@ -33,12 +33,12 @@
 	color: #eba093;
 }
 
-.navbar-inverse .navbar-nav .active a, 
+/*.navbar-inverse .navbar-nav .active a, 
 .navbar-inverse .navbar-nav .active a:focus, 
 .navbar-inverse .navbar-nav .active a:hover {
 	color: #eba093;
 	background-color: #fafafa;
-}
+}*/
 
 .navbar-inverse .navbar-nav li a {
 	color: #333;
@@ -157,7 +157,10 @@
  	}
  }
 
-
+.currentLink {
+   color: #640200;
+   background-color: #000000;
+}
 
 
 

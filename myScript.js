@@ -1,34 +1,51 @@
-// FOR SCROLLING TO SECTIONS
 
-$("clickedMain").click(function() {
-  	$('html,body').animate({
-    	scrollTop: $("#mainpage").offset().top},'slow');
-	}
-);
+$(document).ready(function () {
+  // FOR SCROLLING TO SECTIONS
 
-$("#clickedAbout").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#aboutpage").offset().top}, 2000);
-	}	
-);
+  $("#clickedMain").click(function() {
+    // console.log("test");
+    	$('html,body').animate({
+      	scrollTop: $("#mainpage").offset().top}, 1000);
+  	}
+  );
 
-$("#clickedMainButton").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#aboutpage").offset().top}, 2000);
-	}	
-);
+  $(".btn").click(function() {
+    // console.log("test");
+      $('html,body').animate({
+        scrollTop: $("#aboutpage").offset().top}, 1000);
+    }
+  );
 
-$("clickedExperience").click(function() {
-  	$('html,body').animate({
-    	scrollTop: $("#experiencepage").offset().top},'slow');
-	}
-);
+  $("#clickedAbout").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#aboutpage").offset().top}, 1000);
+  	}	
+  );
 
-$("clickedContact").click(function() {
-  	$('html,body').animate({
-    	scrollTop: $("#contactpage").offset().top},'slow');
-	}
-);
+  $("#clickedMainButton").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#aboutpage").offset().top}, 1000);
+  	}	
+  );
 
-// FOR CONTACT LINK
+  $("#clickedExperience").click(function() {
+    	$('html,body').animate({
+      	scrollTop: $("#experiencepage").offset().top},1000);
+  	}
+  );
 
+  $("#clickedContact").click(function() {
+    	$('html,body').animate({
+      	scrollTop: $("#contactpage").offset().top},1000);
+  	}
+  );
+
+  // FOR FADING-IN DIVS LINK
+
+  // $('h1.hidden').fadeIn(2000).removeClass('hidden');
+
+  // $('h4.hidden').fadeIn(4500).removeClass('hidden');
+
+  // $('div.hidden').fadeIn(2000).removeClass('hidden');
+
+})
