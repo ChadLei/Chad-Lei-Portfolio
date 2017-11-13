@@ -78,6 +78,17 @@
     padding-bottom: 120px;
 }
 
+.mainpagebutton .btn {
+    background-color: inherit;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+
 /*ABOUT PAGE*/
 
 .aboutpagecontainer {
@@ -131,9 +142,6 @@
     font-size: 20px;
     text-decoration: none
 }
-
-
-
 
 
 
