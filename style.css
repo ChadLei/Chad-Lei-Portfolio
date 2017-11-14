@@ -144,23 +144,79 @@
 }
 
 
+/*MEDIA QUERIES*/
 
-/*MEDIA*/
- 
- @media (max-width: 600px) {
- 	#icon {
- 		max-width: 150px;
- 	}
+/*1920 768 320*/
 
- 	h2 {
- 		font-size: 1.7em;
- 	}
+ @media screen and (min-width: 320px) { 
+    #icon {
+        max-width: 120px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .myname {
+        font-size: 30pt;
+    }
+
+    #profilepic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mainpagebutton .btn {
+        font-size: 7pt;
+    }
  }
 
-.currentLink {
-   color: #640200;
-   background-color: #000000;
-}
+ @media screen and (min-width: 768px) { 
+    #icon {
+        max-width: 140px;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .myname {
+        font-size: 40pt;
+    }
+
+    #profilepic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mainpagebutton .btn {
+        font-size: 9pt;
+    }
+ }
+
+ @media screen and (min-width: 1200px) { 
+    #icon {
+        max-width: 160px;
+    }
+
+    h2 {
+        font-size: 1.9em;
+    }
+
+    .myname {
+        font-size: 50pt;
+    }
+
+    #profilepic {
+        width: 160px;
+        height: 160px;
+    }
+
+    .mainpagebutton .btn {
+        font-size: 12pt;
+    }
+ }
+
 
 
 
