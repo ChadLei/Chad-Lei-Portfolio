@@ -1,7 +1,6 @@
 
 $(document).ready(function () {
   // FOR SCROLLING TO SECTIONS
-
   $("#clickedMain").click(function() {
     // console.log("test");
     	$('html,body').animate({
